@@ -1,5 +1,5 @@
 .bgimg {
-  background-image: url('/assets/pastel.jpg');
+  background-image: url('/assets/25515.jpg');
   /* background-repeat: repeat; */
   height: 100%;
   background-position: center;
@@ -28,7 +28,7 @@
 
 .middle {
   position: absolute;
-  top: 50%;
+  top: 81%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -42,21 +42,26 @@ hr {
 .social {
   margin-top: auto;
   margin-bottom: auto;
-  word-spacing: 5px;
+  /* word-spacing: 5px; */
 }
 
 @media (max-width: 414px) {
   .topleft {
     width: 100%;
-    left: 0 !important;
+    left: 0px;
     text-align: center;
   } 
+  .bgimg {background-image: url('/assets/25515_1.png');
+  }
+  .bottomleft { left:0px; text-align: center; width: 100%;}
 }
 @media (max-width: 768px) {
   .topleft {
-    font-size: 2rem;
-    width: 100%;
-    left: 0 !important;
+    width: 100%;   
+    left: 0px;
     text-align: center;
   } 
+  .bgimg {background-image: url('/assets/25515_1.png');
+    
+  }
 }
