@@ -1,12 +1,12 @@
 .bgimg {
-  background-image: url('/assets/25515.jpg');
+  background-image: url('/assets/t1.png');
   /* background-repeat: repeat; */
   height: 100%;
   background-position: center;
   background-size: cover;
   /* position: relative; */
   font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
+  font-size: 2.5rem;
   color: #e6e6ea;
   font-weight: 500 !important;
   text-transform: uppercase;
@@ -50,18 +50,21 @@ hr {
     width: 100%;
     left: 0px;
     text-align: center;
+    font-size: 1.8rem;
   } 
-  .bgimg {background-image: url('/assets/25515_1.png');
+  .bgimg {background-image: url('/assets/t1_m_1.png');
   }
   .bottomleft { left:0px; text-align: center; width: 100%;}
+  .middle { font-size: 1.5rem;}
 }
 @media (max-width: 768px) {
   .topleft {
     width: 100%;   
     left: 0px;
     text-align: center;
+    font-size: 1.8rem;
   } 
-  .bgimg {background-image: url('/assets/25515_1.png');
+  .bgimg {background-image: url('/assets/t1_m_1.png');
     
   }
 }
