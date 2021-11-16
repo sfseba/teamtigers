@@ -1,10 +1,132 @@
-.bgimg {
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/tae_1.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+#hero:before {
+  content: "";
+  /* background: rgba(0, 0, 0, 0.6); */
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  padding-top: 110px;
+}
+
+@media (max-width: 992px) {
+  #hero .container {
+    padding-top: 98px;
+  }
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h1 span {
+  color: #cda45e;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero h2 span {
+  color: #cda45e;
+  font-size: 48px;
+
+}
+#hero .btns {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  #hero .play-btn {
+    margin-top: 30px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: auto;
+  }
+  #hero .container {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# text Section
+--------------------------------------------------------------*/
+a:hover {
+  text-decoration: none !important;
+}
+
+.sns {
+  padding: 30px;
+  text-align: center;  
+  font-size: 30px;  
+  letter-spacing: 5px;
+}
+
+/* .bgimg {
   background-image: url('/assets/t1.png');
-  /* background-repeat: repeat; */
   height: 100%;
   background-position: center;
   background-size: cover;
-  /* position: relative; */
   font-family: "Courier New", Courier, monospace;
   font-size: 2.5rem;
   color: #e6e6ea;
@@ -42,7 +164,6 @@ hr {
 .social {
   margin-top: auto;
   margin-bottom: auto;
-  /* word-spacing: 5px; */
 }
 
 @media (max-width: 414px) {
@@ -67,4 +188,4 @@ hr {
   .bgimg {background-image: url('/assets/t1_m_1.png');
     
   }
-}
+} */
