@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+.specials {
+    overflow: hidden;
+    background: rgb(33, 56, 117) !important;
+    padding-top: 10vh;
+  }
+.section-title {
+    padding-bottom: 10vh;
+}
+.section-title p {
+    color: rgb(246, 221, 218) !important;
+}
+.section-title h2 {
+    color: rgb(20, 32, 66) !important;
+}
+p {
+    color: rgb(255, 255, 255) !important;
+}
+/*  */
+.featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+    color: rgb(255, 255, 255) !important;
+
+}
+
+  /* .breadcrumbs {
+    padding: 15px 0;
+    background: #1d1b16;
+    margin-top: 110px;
+  } */
+  
+  @media (max-width: 992px) {
+    .about {padding-top: 20vh;}
+
+    /* .breadcrumbs {
+      margin-top: 98px;
+    } */
+   .about {padding-top: 20vh;} 
+  }
+  
+  /* .breadcrumbs h2 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+  
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .breadcrumbs ol li + li {
+    padding-left: 10px;
+  }
+  
+  .breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #37332a;
+    content: "/";
+  } */
+  
+  @media (max-width: 768px) {
+    /* .breadcrumbs .d-flex {
+      display: block !important;
+    }
+    .breadcrumbs ol {
+      display: block;
+    }
+    .breadcrumbs ol li {
+      display: inline-block;
+    } */
+   .about {padding-top: 20vh;}
+  }
+  @media (max-width: 1024px){
+    .about{padding-top: 20vh !important;
+  }
+}
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  
+  
+  .about {
+    /* background: url("/assets/images/about-bg.jpg") center center; */
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 40vh;
+  }
+  
+  .about:before {
+    content: "";
+    /* background: rgba(0, 0, 0, 0.8); */
+    /* background: rgba(255, 255, 255, 0.7); */
+    /* background: rgba(255,255,255,.95); */
+    /* background: #eaeaea; */
+    background: #8a8a8a;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .about .about-img {
+    position: relative;
+    transition: .5s;
+  }
+  
+  .about .about-img img {
+    max-width: 100%;
+    border: 4px solid #c7bcbc;
+    position: relative;
+  }
+  
+  .about .about-img::before {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    content: '';
+    border-left: 5px solid #cda45e;
+    border-top: 5px solid #cda45e;
+    transition: .5s;
+  }
+  
+  .about .about-img::after {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    content: '';
+    border-right: 5px solid #cda45e;
+    border-bottom: 5px solid #cda45e;
+    transition: .5s;
+  }
+  
+  .about .about-img:hover {
+    transform: scale(1.03);
+  }
+  
+  .about .about-img:hover::before {
+    left: 10px;
+    top: 10px;
+  }
+  
+  .about .about-img:hover::after {
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  .about .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .about .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #cda45e;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }

@@ -1,0 +1,32 @@
+.footer {
+    background: transparent;
+    /* color: #cda45e; */
+    color:rgba(12, 11, 9, 0.6);
+    font-size: 14px;
+  }
+  .footer #footer-top {
+    background: transparent;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px 0 30px 0;
+  }
+  
+  .footer-holder{
+    background: transparent;
+    font-size: 12px;
+    line-height: 15px;
+    overflow: hidden;
+    padding: 16px 0;     
+  }
+  
+  .table {
+    color:rgba(12, 11, 9, 0.6);
+    text-align: center;
+  }
+  a {
+      text-decoration: none;
+      color:rgba(12, 11, 9, 0.6);
+    }
+a:hover {
+    color: black;
+    }

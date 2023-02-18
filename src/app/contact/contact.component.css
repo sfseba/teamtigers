@@ -1,0 +1,176 @@
+
+
+/* @font-face {
+    font-family: 'abril-regular';
+    src: url('/assets/Abril/Abril_Display_Regular.otf');  
+  } */
+  /* heros */
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/email.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+#hero:before {
+  content: "";
+  /* background: rgba(0, 0, 0, 0.6); */
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  padding-top: 110px;
+}
+
+@media (max-width: 992px) {
+  #hero .container {
+    padding-top: 98px;
+  }
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h1 span {
+  color: #cda45e;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero h2 span {
+  color: #cda45e;
+  font-size: 48px;
+
+}
+#hero .btns {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  #hero .play-btn {
+    margin-top: 30px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: auto;
+  }
+  #hero .container {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# text Section
+--------------------------------------------------------------*/
+a:hover {
+  text-decoration: none !important;
+}
+
+  h2 {
+    font-size: 3rem;
+  }
+  
+  .section-title {
+    padding-top: 40px;
+    /* font-family: 'abril-regular'; */
+    padding-bottom: 5vh !important;
+  }
+  
+  .contact {
+    background-color: white;
+  }
+  
+  .email, .phone {
+    font-family: 'abril-regular';
+    margin-top: 0 !important;
+  }
+  
+  /* .question {
+    padding-top: 50px;
+  } */
+  
+/* button */
+.btn-submit {
+  background: #cda45e;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: .4s;
+  border-radius: 50px;
+}
+.btn-submit:hover {
+  background: #d3af71;
+}
+a {
+  color:#cda45e;
+}
+  @media (min-width: 922px){
+    .col-lg-4 {
+      max-width: 29%;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px)  { .col-lg-4 {
+    max-width: 26%;
+  }}
+  @media only screen and (min-width: 768px) and (max-width: 1366px)  { .col-lg-4 {
+    max-width: 26%;
+  }}
+  @media only screen and (min-width: 900px) and (max-width: 1440px)  { .col-lg-4 {
+    max-width: 29%;
+  }}

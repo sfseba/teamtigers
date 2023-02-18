@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    height: 40px;
+    font-size: 17px;
+    transition: all 0.5s;
+    background-color: rgba(12, 11, 9, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.7); */
+  }
+  
+  .scrolled {
+    top: -40px;
+  }
+  
+  .contact-info {
+    color: white;
+  }
+  
+  .contact-info i {
+    color: #d9ba85;
+    padding-right: 4px;
+  }
+  a { 
+    color: white;
+    text-decoration: none;
+  }

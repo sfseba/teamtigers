@@ -1,0 +1,89 @@
+.specials {
+    overflow: hidden;
+    background: rgb(33, 56, 117) !important;
+    padding-top: 30vh;
+  }
+.section-title {
+    padding-bottom: 10vh;
+}
+.section-title p {
+    color: rgb(246, 221, 218) !important;
+}
+.section-title h2 {
+    color: rgb(20, 32, 66) !important;
+}
+p {
+    color: rgb(255, 255, 255) !important;
+}
+/*  */
+.featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+    color: rgb(255, 255, 255) !important;
+
+}
+
+/* 1st title Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+}
+/* sub title */
+.text-muted {
+    margin-top: 30px !important;
+    font-size: 23px;
+    color: rgb(246, 221, 218) !important;
+}
+
+.service-header {
+    margin: 25px;
+}
+
+/* schedule */ 
+    
+@media (min-width: 40em) {
+    .featurette-heading {      
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {      
+        margin-top: 3rem;
+    }
+}
+
+bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.bg-img{
+    transition: all .3s ease;
+   
+}
+.bg-img:hover{
+transform: scale(1.05);
+}
+/* table */
+th {
+    color: rgba(255, 255, 255, 0.7);
+}
+.sigan {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+td {
+    color: rgb(246, 221, 218);
+}

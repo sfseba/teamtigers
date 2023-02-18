@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    /* background: rgba(12, 11, 9, 0.6); */
+    background: transparent;
+    /* border-bottom: 1px solid #eaeaea; */
+    /* border-bottom: 1px solid rgba(12, 11, 9, 0.6); */
+
+    transition: all 0.2s;
+    top: 40px;
+  }
+  /* when mouse scrolled */
+  .scrolled {
+    top: 0px !important;
+  }
+  .scrolled #header {
+    border-bottom: 1px solid #eaeaea !important;
+  }
+  .scrolled .company_name { 
+    color: black !important;
+    transition: all 0.2s;
+  }
+  .scrolled .nav-link {
+    color: rgba(12, 11, 9, 0.6) !important;
+  }
+  .scrolled a:hover {
+    color: black !important;
+  }
+  .scrolled .golden-button {
+    color:rgba(12, 11, 9, 0.6);
+  }
+
+
+.bg_dark {
+  /* background: black !important; */
+  background: rgba(255,255,255,.95) !important;
+  transition: opacity .4s cubic-bezier(.19, 1, .22, 1);
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* mouse over */
+a {
+  color: rgba(255, 255, 255, 0.7);
+}
+a:hover { 
+  color: white;
+}
+
+/* media */
+@media (max-width:1024px){
+  #header {
+    border-bottom: 1px solid #eaeaea !important;
+    background: #eaeaea;
+  }
+  .company_name { 
+    color: black !important;
+    transition: all 0.2s;
+  }
+  .nav-link {
+    color: rgba(12, 11, 9, 0.6) !important;
+  }
+  a:hover {
+    color: black !important;
+  }
+  .golden-button {
+    color:rgba(12, 11, 9, 0.6);
+  }
+}
+@media (max-width: 576px) {
+  .company_name {    
+    font-size: 16px !important;
+  }    
+
+  .gh-logo {
+    height: 50px !important;
+    width: 50px !important;
+  }
+}
+
+.company_name {    
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #fff;
+}
+
+.gh-logo {
+  /* margin: auto; */
+  margin-right: 2vh;
+  height: 65px;
+  width: 65px;
+}
+a:link {text-decoration: none;}
