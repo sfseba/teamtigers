@@ -8,6 +8,11 @@ import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 })
 export class ContactComponent implements OnInit {
 
+  public name: string = "";
+  public email: string = "";
+  public subject: string = "";
+  public note: string = "";
+
   constructor() { }
 
   isSubmitting = false;
@@ -24,6 +29,10 @@ export class ContactComponent implements OnInit {
       "user_Yu0jX9EaO6AO6xl4v7yaq")
         .then((result: EmailJSResponseStatus) => {
           alert("Message Sent! We will get back to you as soon as possible! Thank you!");
+          this.name = "";
+          this.email = "";
+          this.subject = "";
+          this.note = "";
           this.isSubmitting = false;
         }, (error) => {
           alert("Something went wrong. Try one more time.");

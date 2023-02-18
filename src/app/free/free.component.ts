@@ -19,7 +19,7 @@ export class FreeComponent implements OnInit {
 
     this.isSubmitting = true;
       e.preventDefault();
-      emailjs.sendForm('service_yvejts9', 'template_ed5ve0g', e.target as HTMLFormElement,
+      emailjs.sendForm('service_yvejts9', 'template_puhen7q', e.target as HTMLFormElement,
       "user_Yu0jX9EaO6AO6xl4v7yaq")
         .then((result: EmailJSResponseStatus) => {
           alert("Message Sent! We will get back to you as soon as possible! Thank you!");
